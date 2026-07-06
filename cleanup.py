@@ -2,7 +2,7 @@ import os
 import glob
 import shutil
 
-BASE_DIR = r"d:\Vietnam BD Mart\vietnambdmart-server"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Delete DB
 db_path = os.path.join(BASE_DIR, "db.sqlite3")
